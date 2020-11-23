@@ -1,0 +1,17 @@
+from double_linked_list import DoubleLinkedList
+
+d = DoubleLinkedList()
+d.is_empty()
+d.append(17)
+d.is_empty()
+d.append(34)
+d.append(41)
+d.append(3)
+d.transversal()
+d.remove_from_head(17)
+d.transversal()
+d.get_size()
+d.reverse_transversal()
+d.remove_from_tail(17)
+d.find_from_head(3)
+d.find_from_tail(3)
